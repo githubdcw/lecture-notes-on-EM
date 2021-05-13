@@ -12,6 +12,6 @@ This is a lecture notes on Electromagnetic Fields And Waves course at Kasetsart 
 
 Vector analysis. Electrostatic fields. Potential and energy. Conductors and dielectric. Capacitance. Convection and conduction currents. Resistance. Solution of Laplace’s and Poisson’s equations. Magneto static fields. Magnetic materials. Inductance. Displacement current. Time-varying electromagnetic fields. Maxwell’s equations.
 
-[สารบัญ](contentTH.md)
+[สารบัญ](contents/contentTH.md)
 
-[Table of Content](contentEN.md)
+[Table of Content](contents/contentEN.md)
