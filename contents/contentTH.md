@@ -1,3 +1,6 @@
+| [หน้าหลัก](../README.md) | [Contents](contentEN.md) | [สารบัญ](contentTH.md) |
+| ---------- | ---------- | -------- |    
+
 # สารบัญ  
 - [บทที่ 1](ch1TH/ch1TH.md)
 - [บทที่ 2](ch1TH/ch2TH.md)
