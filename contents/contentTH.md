@@ -1,4 +1,4 @@
-| [หน้าหลัก](../README.ipynb) | [Contents](contentEN.ipynb) | [สารบัญ](contentTH.ipynb) |
+| [หน้าหลัก](../README.md) | [Contents](contentEN.md) | [สารบัญ](contentTH.md) |
 | ---------- | ---------- | -------- |    
 
 # สารบัญ  
