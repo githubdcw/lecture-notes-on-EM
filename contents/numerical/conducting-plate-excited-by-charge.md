@@ -89,6 +89,6 @@ This is the system of equations with 4 equations and 4 unknowns. It can be solve
 Solutions can be found by inverting A as shown below.
 
 <img src="/contents/asset/numerical-bx-01.png" align="center" width=200 alt="" />   
-The electric potential on the conductor is -1.5 volts.  
+The electric potential on the conductor is 1.5 volts.  
 
 
