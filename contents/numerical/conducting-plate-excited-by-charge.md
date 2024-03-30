@@ -53,7 +53,11 @@ V_{CC} &= 0.035 \rho_{sC}
 ```
 Rewrite these equations  
 ```math
-\begin{align}V_A &= V_{AA}+V_{AB}+V_{AC}+1.0 \\V_B &= V_{BA}+V_{BB}+V_{BC}+1.5 \\V_C &= V_{CA}+V_{CB}+V_{CC}+2.0 \end{align} 
+\begin{align}
+V_A &= V_{AA}+V_{BA}+V_{CA}+1.0 \\
+V_B &= V_{AB}+V_{BB}+V_{CB}+1.5 \\
+V_C &= V_{AC}+V_{BC}+V_{CC}+2.0
+\end{align} 
 ```
 as follows  
 ```math
