@@ -13,11 +13,15 @@ Find electric potentials at points A, B, and C $V_A$, $V_B$, and $V_C$ after the
 Before placing the conductor:
 ```math
 \begin{align}V_A &= 1.0 \\V_B &= 1.5 \\V_C &= 2.0 \end{align} 
-```  
+```
+<img src="/contents/asset/potential_from_charge.jpg" align="center" width=200 alt="" />  
+
 After placing the conductor, charge is induced on each conducting square. The charges produces electric potential. 
 ```math
 \begin{align}V_A &= V_{AA}+V_{BA}+V_{CA}+1.0 \\V_B &= V_{AB}+V_{BB}+V_{CB}+1.5 \\V_C &= V_{AC}+V_{BC}+V_{CC}+2.0 \end{align} 
 ```
+<img src="/contents/asset/potential_from_charge_with_conductor.jpg" align="center" width=200 alt="" />  
+
 Since points A, B, and C are on the conductor, $V_A = V_B = V_C = V$. V is an unknown to be solved for.   
 The expression of the electric protential produced by a conducting square of $\Delta \times \Delta$ with a surface charge density of 1 $C/m^2$ can be approximated by  
 ```math
@@ -69,5 +73,22 @@ V &= 0.005 \rho_{sA}+0.010 \rho_{sB}+0.035 \rho_{sC}+2.0 \\
 ```
 There are 4 unknows. One more equation is needed. The net charge on the conductor is Zero.  
 $\rho_{sA}+ \rho_{sB}+ \rho_{sC}=0$  
+
+Rewrite the equations, 
+```math
+\begin{align}
+0.035 \rho_{sA}+0.010 \rho_{sB}+0.005 \rho_{sC} -V &= -&1.0 \\
+0.010 \rho_{sA}+0.035 \rho_{sB}+0.010 \rho_{sC} -V &= -&1.5 \\
+0.005 \rho_{sA}+0.010 \rho_{sB}+0.035 \rho_{sC} -V &= -&2.0 \\
+ \rho_{sA}+\rho_{sB}+ \rho_{sC}  &= &0
+\end{align} 
+```
+This is the system of equations with 4 equations and 4 unknowns. It can be solved by calculator or converted to matrix equation $Ax = b$ as shown below.
+
+<img src="/contents/asset/numerical-A-01.png" align="center" width=200 alt="" />   
+Solutions can be found by inverting A as shown below.
+
+<img src="/contents/asset/numerical-bx-01.png" align="center" width=200 alt="" />   
+The electric potential on the conductor is -1.5 volts.  
 
 
